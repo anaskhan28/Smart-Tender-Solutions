@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import './App.css'
 import Searchbar from './components/SearchBar'
 import Card from './components/Card'
+import Tender from './components/Tender'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Searchbar/>
       <Card/>
+      <Tender/>
 
     </div>
   )
