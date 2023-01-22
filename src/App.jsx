@@ -1,12 +1,17 @@
-import { useState } from 'react'
+import Navbar from './components/Navbar'
 import './App.css'
+import Searchbar from './components/SearchBar'
+import Card from './components/Card'
 
 function App() {
   
 
   return (
     <div className="App">
-    <button class="btn btn-primary">Button</button>
+      <Navbar/>
+      <Searchbar/>
+      <Card/>
+
     </div>
   )
 }
